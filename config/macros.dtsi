@@ -1,3 +1,9 @@
+macro_hsm: macro_hsm{
+compatible = "zmk,behavior-macro";
+label = "macro_hsm";
+#binding-cells = <0>;
+bindings = <&kt CLEAR>, <&kp MINUS>, <&kt CLEAR>;
+};
 macro_switch_display: macro_switch_display{
 compatible = "zmk,behavior-macro";
 label = "macro_switch_display";
